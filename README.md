@@ -1,2 +1,2 @@
 # Muscle-App
-# Website template was acquired from https://purecss.io/layouts/ for the css and html. This version will be altered in the future from it's original version. 
+# The template used for the website was generated from https://templated.co/ and is liscensed under the Creative Commons Attribution 3.0 liscense. The template will be modified from it's original version.
