@@ -12,6 +12,12 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.maphilight.min.js"></script>
+		<script type="text/javascript">$(function(){
+			$('.map').maphilight();
+		});
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -52,14 +58,15 @@
 					<div class = "muscle">
 						<section>
 							<header>
-								<img src="images/muscle.png" usemap="#image-map" class="center">
+								<img src="images/muscle.png" usemap="#map" class="center">
 								<style>
 									img {
 										margin-left: -23%;
 									}
 								</style>
+								
 
-								<map name="image-map">
+								<map name="map">
 									<area target="" alt="Forearm" title="Forearm" href="#" coords="274,596,309,503,315,474,342,447,357,481,389,490,370,533,326,591,301,608" shape="poly">
 									<area target="" alt="Forearm" title="Forearm" href="#" coords="752,490,795,446,822,476,825,498,862,593,835,607,808,585,778,554,764,529" shape="poly">
 									<area target="" alt="Bicep" title="Bicep" href="#" coords="350,452,376,413,438,374,430,393,435,430,389,489,362,479" shape="poly">
