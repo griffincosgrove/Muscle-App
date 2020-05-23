@@ -12,12 +12,6 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.maphilight.min.js"></script>
-		<script type="text/javascript">$(function(){
-			$('.map').maphilight();
-		});
-		</script>
 	</head>
 	<body class="is-preload">
 
@@ -61,7 +55,7 @@
 								<img src="images/muscle.png" usemap="#map" class="center">
 								<style>
 									img {
-										margin-left: -23%;
+										margin-left: 0%;
 									}
 								</style>
 								
@@ -234,6 +228,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript" src="assets/js/jquery.maphilight.min.js"></script>
+			<script type="text/javascript">
+			$('img[usemap]').maphilight()
+			</script>
 
 	</body>
 </html>
